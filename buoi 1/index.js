@@ -50,12 +50,33 @@ var n = 100_000;
 var m = 24;
 console.log("luong nha vien =", n*m);
 
-var a = 10;
+var a = 5;
 var b = 20;
 var c = 30;
 var d = 40;
 var e = 50;
 console.log("trung binh=",((a+b+c+d+e)/5));
+//---------------------------------------------
+
+var aa ="Hello";
+var bb = "World";
+var hl = aa + " " + bb; //"HelloWorl"
+console.log(hl);
+console.log("haha"+"  "+"hihi");
+//---------------------------------------------
+
+//** */kieu tra kieu du lieu: typeof
+console.log(typeof 3);
+
+// ep kieu du lieu
+var num = number(strNum);
+var strNum2 = string(num);
+string ;
+number;
+console.log(4+'3'+5+2+1); //43521
+//4+'3' => string (4) + '3' =>'43'
+
+
 
 
 

@@ -5,10 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Hello</h1>
-    
+    <h1 id="hello"> Hello World</h1>
+
+    <h2 id="h2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, nesciunt!</h2>
+    <h3 id="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quasi.</h3>
+    <h4 id="h4">Cyber Soft</h4>
+    <div>
+        <i id="bat" style ="display: none;" class="fa-solid fa-lightbulb"></i>
+        <i id ="tat" class="fa-regular fa-lightbulb"></i>
+        <button onclick="handleToggle()"  id="toggle">toggle</button>
+    </div>
+    <div>
+        <p id="count">0</p>
+        <button onclick="handleButton()" id="tang">+</button>
+        <button onclick="handleButton2()" id="tru">-</button>
+    </div>
+    <div>
+        <div id="color" style ="width: 100px; height: 100px;
+        background-color: black;"></div>
+        <button onclick="changecolor('red')" >red</button>
+        <button onclick="changecolor('green')">green</button>
+        <button onclick="changecolor('blue')">blue</button>
+        <button onclick="changecolor('black')">black</button>
+    </div>
 
 
 
@@ -79,12 +101,16 @@ console.log('[3]' ,age);
 age = 33;
 console.log('[4]' ,age);
 
+//** gan gia tri cua bien age cho bien age2
+var age2 = age;
+
 
 
 
 </script>
 
 
-<script src="./buoi 1/index.js"></script>
+<!-- <script src="./buoi 1/index.js"></script> -->
+<script src="./buoi2/index.js"></script>
 </body>
 </html>
